@@ -1,4 +1,4 @@
-# Deepseek-Plex - AI-Powered Search Interface
+# OpenAi-Plex - AI-Powered Search Interface
 
 ![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black?logo=next.js)
 ![Deepseek-R1](https://img.shields.io/badge/Deepseek-R1-7d3aea)
