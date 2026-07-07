@@ -17,9 +17,10 @@ datasource db {
 model User{
   id    String  @id  @default(uuid())
   email String 
-  provider   AuthProvider
+  neonId String  @unique
   name    String
   conversations  Conversation[]
+ 
 }
 
 model Conversation{
@@ -41,10 +42,7 @@ model Message{
     
     
 }
-enum AuthProvider{
-  google
-  github
-}
+
 
 enum MessageRole{
     user
